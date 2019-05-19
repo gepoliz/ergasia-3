@@ -83,6 +83,16 @@ function pre_r($array){
 		<link rel="stylesheet" type="text/css" href="cart.css">
 	</head>
 	<body>
+	 <header>
+             <h1>QueenShop</h1>
+             <nav>
+                 <ul class="navbar">
+                     <li><a href="index.html">Αρχική</a></li>
+                     <li><a href="project.html">Ηλ. Κατάστημα</a></li>
+                     <li><a href="epik.html">Επικοινωνία</a></li>
+                 </ul>
+            </nav>
+         </header>    
 		<div class="container">
 		<?php
 
