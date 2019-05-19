@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Montserrat:400,600');
+
+body {
+    margin: 0;
+    background-color: #fff; 
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat';
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: left;
+    padding: 2em 2em;  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+  float: left;
+  margin: 2em;
+  color: black;
+  
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  width: 1em;
+}
+
+nav ul li a:hover{
+  background-color: black;  
+  color: white;
+  width:5em;
+  
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-vert{
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+.images{
+  max-width: 150px ;
+  height: 150px;
+  border-radius: 50% ;
+  vertical-align: baseline;
+  
+}
+
+.images1{
+  max-width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  vertical-align: baseline;
+  float: right;
+}
+
+.images2{
+ max-width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  vertical-align: baseline;
+  float: right;
+}
+
+.whitecontainer {
+  max-width: 1280px  ;
+  margin: 0 auto;
+}
+
+.whitecontainer li,.whitecontainer .shadow-container{
+  padding: 6em;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px ; 
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1)
+}
+
+footer{
+  padding-top: 30%;
+}
